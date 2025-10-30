@@ -223,6 +223,7 @@ document.addEventListener('DOMContentLoaded', function () {
         localize();
       });
   }
+  
 
   let languageDropdown = document.getElementsByClassName('dropdown-language');
 
