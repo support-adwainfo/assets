@@ -18,13 +18,21 @@
   }
 }
 
+.landing-white {
+  --bs-hero-bg: linear-gradient(135deg, #e0f2fe 0%, #fde2e4 100%);
+  background: var(--bs-hero-bg);
+  border-radius: 0 0 3.5rem 3.5rem;
+  padding-block-start: 10.2rem;
+}
+
 /* Hero */
 .landing-hero {
-  --bs-hero-bg: linear-gradient(135deg, #e0f2fe 0%, #fde2e4 100%);
+  --bs-hero-bg: #2D5DA8;
   border-radius: 0 0 3.5rem 3.5rem;
   background: var(--bs-hero-bg);
   padding-block-start: 10.2rem;
 }
+
 .landing-hero::after {
   position: absolute;
   z-index: -1;
@@ -44,7 +52,7 @@
 }
 .landing-hero .hero-title {
   animation: shine 2s ease-in-out infinite alternate;
-  background: linear-gradient(to right, #28c76f 0%, #5a4aff 47.92%, #ff3739 100%);
+  background: linear-gradient(to right, #2D5DA8 0%, #5A4AFF 50%, #9C6ADE 100%);
   background-clip: text;
   background-size: 200% auto;
   color: var(--bs-heading-color);
@@ -226,6 +234,12 @@
   max-inline-size: 20rem;
 }
 
+.landing-cta {
+	--bs-hero-bg: linear-gradient(135deg, #2D5DA8 0%, #B39DDB 100%);
+	background: var(--bs-hero-bg);
+	padding-block-start: 10.2rem;
+}
+
 .landing-cta .cta-title {
   font-size: 2.125rem;
 }
@@ -255,6 +269,10 @@
 
 /* Dark style */
 [data-bs-theme=dark] .landing-hero {
+  --bs-hero-bg: #1e2130;
+}
+
+[data-bs-theme=dark] .landing-cta {
   --bs-hero-bg: #1e2130;
 }
 
