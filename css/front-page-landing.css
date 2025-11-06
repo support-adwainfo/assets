@@ -376,8 +376,8 @@ body { font-family: var(--app-font); }
 .help-item {
   display: flex;
   align-items: center;
-  background-color: #2e2d3a;
-  color: white;
+  background-color: var(--bs-paper-bg);
+  color: var(--bs-dark);
   padding: 8px 12px;
   border-radius: 6px;
   text-decoration: none;
@@ -387,7 +387,7 @@ body { font-family: var(--app-font); }
 }
 
 .help-item i {
-  background-color: #fff;
+  background-color: var(--bs-dark);
   color: #2e2d3a;
   border-radius: 50%;
   padding: 5px;
