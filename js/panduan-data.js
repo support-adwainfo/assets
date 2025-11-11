@@ -4,8 +4,8 @@ const panduan_data = [
         file: "JUKNIS PSE PUBLIK KOMDIGI.pdf"
     },
     {
-        title: "JUKNIS KLASIFIKASI DATA PSE PUBLIK KOMDIGI",
-        file: "JUKNIS KLASIFIKASI DATA PSE PUBLIK KOMDIGI.pdf"
+        title: "JUKNIS KLASIFIKASI DATA SISTEM ELEKTRONIK",
+        file: "JUKNIS KLASIFIKASI DATA SISTEM ELEKTRONIK.pdf"
     },
     {
         title: "SOP Pendaftaran PSE Lingkup Publik",
